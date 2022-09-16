@@ -1,0 +1,204 @@
+<html>
+<head>
+<style>
+body
+{
+background-color:green;
+}
+#outer
+{
+height:1000px;
+width:1000px;
+//border:1px solid;
+margin:0px auto;
+background-color:green;
+}
+#header
+{
+height:250px;
+width:900px;
+//border:1px solid;
+margin-top:25px;
+margin-left:50px;
+//background-color:white;
+}
+.logo
+{
+height:248px;
+width:400px;
+//border:1px solid;
+margin-left:30px;
+float:left;
+//background-color:white;
+}
+.logo a
+{
+text-decoration:none;
+}
+#menubar
+{
+height:50px;
+width:900px;
+border:1px solid grey;
+background-color:silver;
+margin-left:50px;
+margin-top:25px;
+}
+marquee
+{
+color:blue;
+}
+#menubar ul
+{
+list-style-type:none;
+}
+#menubar ul li
+{
+display:inline;
+border:1px solid;
+padding:10px;
+}
+#menubar ul li a
+{
+text-decoration:none;
+color:black;
+}
+#menubar ul li:hover
+{
+background-color:white;
+}
+</style>
+</head>
+<body>
+<div id="outer">
+  <marquee behavior="alternate" onmouseover="stop();" onmouseout="start();">wellcome to visit our registration page.</marquee>
+<div id="header">
+     <div class="logo">
+	 <a href="#"><img src="logo1.png" height="248px" width="400px"/></a>
+	 </div>
+	 <div class="logo">
+	 <br/>
+	 <br/>
+	 <br/>
+	 <a href="#"><h1>R Rahul Akela</h1><a/>
+	 <h3>The Creative Boy.</h3>
+	 </div>
+   </div> 
+   <div id="menubar">
+        <ul>
+		<li><a href="D:\ONLINE_COURSE\HTML\html_code\index.html">HOME</a></li>
+		<li><a href="D:\ONLINE_COURSE\HTML\html_code\about.html">ABOUT</a></li>
+		<li><a href="D:\ONLINE_COURSE\HTML\html_code\registration.html">REGISTRATION</a></li>
+		<li><a href="D:\ONLINE_COURSE\HTML\html_code\login.html">LOGIN</a></li>
+		<li><a href="D:\ONLINE_COURSE\HTML\html_code\contact.html">CONTACT</a></li>
+		</ul>
+   </div>
+<h1 align="center">-:REGISTRATION FORM:-</h1>
+<h3 align="center">To Register in our page please fill the Form.</h3>
+<table border="0" align="center" cellspacing="10px">
+<form action="storeone.php" method="post">
+<tr>
+<td>ENTER NAME:-
+<input type="text"/>
+</td>
+</tr>
+<tr>
+<td>ENTER FATHER NAME:-
+<input type="text"/>
+</td>
+</tr>
+<tr>
+<td>ENTER MOTHER NAME:-
+<input type="text"/>
+</td>
+</tr>
+<tr>
+<td>SELECT GENDER:-
+MALE
+<input type="radio" name="a"/>
+FEMEL
+<input type="radio" name="a"/>
+TRANSGENDER
+<input type="radio" name="a"/>
+</td>
+</tr>
+<tr>
+<td>HOBBIES:-
+CRICKET
+<input type="checkbox"/>
+FOOTBALL
+<input type="checkbox"/>
+READING
+<input type="checkbox"/>
+TRAVELING
+<input type="checkbox"/>
+</td>
+</tr>
+<tr>
+<td>DOB:-
+<input type="date"/>
+</td>
+</tr>
+<tr>
+<td>E-MAIL:-
+<input type="email"/>
+</td>
+</tr>
+<tr>
+<td>PASSWORD:-
+<input type="password"/>
+</td>
+</tr>
+<tr>
+<td>MOBILE NO:-
+<select>
+<option>+90</option>
+<option>+91</option>
+<option>+92</option>
+<option>+93</option>
+<option>+94</option>
+</select>
+<input type="number"/>
+</td>
+</tr>
+<tr>
+<td>PHOTO:-
+<input type="file"/>
+</td>
+</tr>
+<tr>
+<td>SIGNATURE:-
+<input type="file"/>
+</td>
+</tr>
+<tr>
+<td>ADDRESS:-
+<textarea></textarea>
+</td>
+</tr>
+<tr>
+<td>SELECT CITY:-
+<select>
+<option>PATNA</option>
+<option>GAYA</option>
+<option>RANCHI</option>
+<option>VARANASHI</option>
+<option>DELHI</option>
+</select>
+<input type="text"/>
+</td>
+</tr>
+<br/>
+<br/>
+<tr>
+<td>SUBMIT:-       
+<input type="submit"/>
+RESET:-
+<input type="reset"/>
+</td>
+</tr>
+</form>
+</table>
+</div>
+</body>
+</html>

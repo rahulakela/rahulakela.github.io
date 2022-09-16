@@ -1,0 +1,152 @@
+<html>
+<head>
+<style>
+body
+{
+background-color:orange;
+}
+#outer
+{
+height:1000px;
+width:1000px;
+border:1px solid;
+background-color:blue;
+margin:0px auto;
+}
+#header
+{
+height:250px;
+width:900px;
+//border:1px solid;
+margin-top:25px;
+margin-left:50px;
+//background-color:white;
+}
+.logo
+{
+height:248px;
+width:400px;
+//border:1px solid;
+margin-left:30px;
+float:left;
+//background-color:white;
+}
+.logo a
+{
+text-decoration:none;
+}
+#menubar
+{
+height:50px;
+width:900px;
+border:1px solid grey;
+background-color:silver;
+margin-left:50px;
+margin-top:25px;
+}
+marquee
+{
+color:chocolate;
+}
+#menubar ul
+{
+list-style-type:none;
+}
+#menubar ul li
+{
+display:inline;
+border:1px solid;
+padding:10px;
+}
+#menubar ul li a
+{
+text-decoration:none;
+color:black;
+}
+#menubar ul li:hover
+{
+background-color:white;
+}
+#login
+{
+height:400px;
+width:400px;
+//border:1px solid;
+background-color:skyblue;
+margin-left:300px;
+}
+#photo
+{
+height:50px;
+width:50px;
+//border:1px solid;
+border-radius:25px;
+margin:0px auto;
+}
+.row
+{
+height:60px;
+width:360px;
+//border:10px solid;
+margin-left:10px;
+}
+.col
+{
+height:50px;
+width:150px;
+//border:1px solid;
+margin-left:30px;
+float:left;
+padding:5px;
+}
+</style>
+</head>
+<body>
+<div id="outer">
+<marquee behavior="alternate" onmouseover="stop();" onmouseout="start();">wellcome to visit our login page.</marquee>
+<div id="header">
+     <div class="logo">
+	 <a href="#"><img src="logo1.png" height="248px" width="400px"/></a>
+	 </div>
+	 <div class="logo">
+	 <br/>
+	 <br/>
+	 <br/>
+	 <a href="#"><h1>R Rahul Akela</h1><a/>
+	 <h3>The Creative Boy.</h3>
+	 </div>
+   </div> 
+   <div id="menubar">
+        <ul>
+		<li><a href="D:\ONLINE_COURSE\HTML\html_code\index.html">HOME</a></li>
+		<li><a href="D:\ONLINE_COURSE\HTML\html_code\about.html">ABOUT</a></li>
+		<li><a href="D:\ONLINE_COURSE\HTML\html_code\registration.html">REGISTRATION</a></li>
+		<li><a href="D:\ONLINE_COURSE\HTML\html_code\login.html">LOGIN</a></li>
+		<li><a href="D:\ONLINE_COURSE\HTML\html_code\contact.html">CONTACT</a></li>
+		</ul>
+   </div>
+     <div id="login">
+	 <h1 align="center"><span style="color:chocolate;">USER</span><span style="color:grey;">LOGIN</span></h1>
+	    <div id="photo">
+		<img src="men.png" height="50px" width="50px" border-radius="25px"/>
+		</div>
+		<div class="row">
+		<h3 align="center">Email-Id:
+		<input type="email"/></h3>
+		<h3 align="center">Password:
+		<input type="password"/></h3>
+		</div>
+		<div class="row">
+		<h3 ALIGN="center"><input type="SUBMIT"/>
+		</h3>
+		</div>
+		<div class="col">
+		remember me <input type="checkbox"/>
+		</div>
+		<div class="col">
+		<a href="#" align="center">forget password</a>
+		</div>
+	 </div>
+</div>
+</body>
+</html>
